@@ -1,4 +1,4 @@
-projetct "ImGui"
+project "ImGui"
     kind "staticLib"
 
     language "C++"
