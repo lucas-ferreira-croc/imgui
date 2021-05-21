@@ -1,4 +1,4 @@
-projetct "ImGui"
+project "ImGui"
     kind "staticLib"
 
     language "C++"
@@ -11,8 +11,9 @@ projetct "ImGui"
         "imconfig.h",
         "imgui.h",
         "imgui.cpp",
-        "imgui_draw",
+        "imgui_draw.cpp",
         "imgui_internal.h",
+        "imgui_tables.cpp",
         "imgui_widgets.cpp",
         "imstb_rectpack.h",
         "imstb_textedit.h",
@@ -26,5 +27,5 @@ projetct "ImGui"
         staticruntime "On"
 
 
-        filter { "sytem:windows", "configurations:Release"}
+        filter { "system:windows", "configurations:Release"}
             buildoptions "/MT"
